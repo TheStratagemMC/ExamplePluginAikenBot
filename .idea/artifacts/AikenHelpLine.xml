@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AikenHelpLine">
+    <output-path>$USER_HOME$/AikenBot/bot-plugins</output-path>
+    <root id="archive" name="AikenHelpLine.jar">
+      <element id="module-output" name="AikenHelpLine" />
+      <element id="file-copy" path="$PROJECT_DIR$/main.txt" />
+    </root>
+  </artifact>
+</component>
