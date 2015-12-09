@@ -1,1 +1,1 @@
-com.thestratagemmc.aikenline.AikenHelpLine
+com.thestratagemmc.aikenline.ExampleAikenPlugin
