@@ -45,8 +45,6 @@ public class ExampleAikenPlugin extends Plugin {
 
     @Subscribe
     public void onPersonalMessage(ChatPersonalMessageEvent event){
-        event.getMessage().reply(responses.get(
-                ThreadLocalRandom.current().nextInt(responses.size())
-        ));
+        event.getMessage().reply(responses.get(ThreadLocalRandom.current().nextInt(responses.size())));
     }
 }
