@@ -42,9 +42,12 @@ public class ExampleAikenPlugin extends Plugin {
         return "0.1";
     }
 
+    public String nextResponse(){
+        return responses.get(ThreadLocalRandom.current().nextInt(responses.size()));
+    }
 
     @Subscribe
     public void onPersonalMessage(ChatPersonalMessageEvent event){
-        event.getMessage().reply(responses.get(ThreadLocalRandom.current().nextInt(responses.size())));
+        event.getMessage().reply(nextResponse());
     }
 }
