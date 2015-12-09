@@ -12,7 +12,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * Created by axel on 12/2/15.
  */
-public class AikenHelpLine extends Plugin {
+public class ExampleAikenPlugin extends Plugin {
 
     List<String> responses = new ArrayList<>();
 
@@ -29,7 +29,7 @@ public class AikenHelpLine extends Plugin {
 
     @Override
     public String getName() {
-        return "HelpLine-messaging help system for AikenBot.";
+        return "ExampleAikenPlugin: short example of how the bot can be used.";
     }
 
     @Override
