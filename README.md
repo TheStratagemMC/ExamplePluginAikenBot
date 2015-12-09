@@ -1,0 +1,2 @@
+# ExamplePluginAikenBot
+Example AikenBot plugin.
